@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KI2 YADAV Official Website</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    overflow-x:hidden;
+    background:#000;
+    color:white;
+}
+
+/* HOME PAGE */
+.home{
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 0 20px gold;
+}
+
+.overlay h1{
+    font-size:60px;
+    color:#ffcc00;
+    text-shadow:3px 3px 10px black;
+}
+
+.overlay h2{
+    font-size:30px;
+    margin-top:10px;
+    color:white;
+}
+
+.overlay p{
+    margin-top:20px;
+    font-size:20px;
+    color:#ddd;
+}
+
+/* Sticker Peel Buttons */
+.peel-btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 30px;
+    background:linear-gradient(45deg,#ffcc00,#ff6600);
+    color:black;
+    font-weight:bold;
+    border-radius:50px;
+    text-decoration:none;
+    transition:0.4s;
+    box-shadow:0 0 15px orange;
+}
+
+.peel-btn:hover{
+    transform:scale(1.1);
+    background:white;
+}
+
+/* DETAILS SECTION */
+#details{
+    min-height:100vh;
+    background:url('https://wallpapercave.com/wp/wp3549593.jpg') center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:50px;
+}
+
+.details-box{
+    background:rgba(0,0,0,0.7);
+    padding:40px;
+    border-radius:20px;
+    max-width:700px;
+    box-shadow:0 0 20px lime;
+}
+
+.details-box h1{
+    color:#00ff99;
+    margin-bottom:20px;
+}
+
+.details-box p{
+    font-size:24px;
+    line-height:1.8;
+    font-weight:bold;
+    font-style:italic;
+}
+
+/* POPUP BUTTONS */
+.popup-btn{
+    margin-top:25px;
+    display:inline-block;
+    padding:15px 25px;
+    background:#ff0066;
+    color:white;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.popup-btn:hover{
+    background:white;
+    color:black;
+    transform:scale(1.1);
+}
+
+/* IMAGE SECTION */
+#photo{
+    min-height:100vh;
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:40px;
+}
+
+#photo img{
+    width:350px;
+    border-radius:20px;
+    box-shadow:0 0 30px cyan;
+}
+
+#photo h1{
+    margin-bottom:20px;
+    color:cyan;
+}
+
+/* CONTACT SECTION */
+#contact{
+    min-height:100vh;
+    background:url('https://wallpapercave.com/wp/wp9429824.jpg') center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.contact-box{
+    background:rgba(0,0,0,0.7);
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 0 20px red;
+}
+
+.contact-box h1{
+    color:#ff4444;
+    margin-bottom:20px;
+}
+
+.contact-box p{
+    font-size:24px;
+    line-height:2;
+    font-weight:bold;
+}
+
+/* FOOTER */
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:22px;
+    font-weight:bold;
+    letter-spacing:2px;
+    border-top:4px solid gold;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HOME PAGE -->
+<section class="home">
+    <div class="overlay">
+        <h1>HI, I'M KI2_YADAV</h1>
+        <h2>Professional Web Developer</h2>
+        <p>Welcome To My Official Stylish Website</p>
+
+        <a href="#details" class="peel-btn">
+            For More Details Click Here
+        </a>
+    </div>
+</section>
+
+<!-- DETAILS PAGE -->
+<section id="details">
+    <div class="details-box">
+        <h1>THE KI2_KING</h1>
+
+        <p>
+            Official Account <br>
+            Love Mom And Dad ?? <br>
+            Fashion Blogger ? <br>
+            Model ?? <br>
+            Wish Me On 16 Oct ?? <br>
+            Live In HYD ??
+        </p>
+
+        <a href="#photo" class="popup-btn">
+            If You See Me Click Here
+        </a>
+
+        <br><br>
+
+        <a href="#contact" class="popup-btn">
+            If You Contact Me Click Here
+        </a>
+    </div>
+</section>
+
+<!-- PHOTO PAGE -->
+<section id="photo">
+    <h1>MY PHOTO</h1>
+
+    <!-- Replace image path with your image -->
+    <img src="IMG_20210607_174233_350.jpg" alt="KI2_YADAV Photo">
+
+</section>
+
+<!-- CONTACT PAGE -->
+<section id="contact">
+    <div class="contact-box">
+        <h1>CONTACT ME</h1>
+
+        <p>
+            WhatsApp :- 9542724618 <br>
+            Email :- kurrakitu704@gmail.com
+        </p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    ? THANK YOU FOR VISITING MY WEBSITE ?
+</footer>
+
+</body>
+</html>
